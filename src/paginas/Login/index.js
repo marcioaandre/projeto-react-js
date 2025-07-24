@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../../assets/treina_recife_logo.png";
+import "./login.css";
 
 function Login() {
     const[email, setEmail] = useState("");
@@ -11,7 +12,7 @@ function Login() {
     }
 
     return (
-        <div className="container">
+        <div className="container container-login">
             <div className="col-4">
         <img src={logo} alt="Treina Recife" width="350px" className="mb-5"/>
 

@@ -9,14 +9,6 @@
 
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-}
 
 .form-link {
     text-decoration: none;
@@ -28,4 +20,6 @@
     transition: 0.25s;
   }
 
-  
+  .bg-body-primary {
+      background-color: rgb(255, 123, 0) !important;
+  }
